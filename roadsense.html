@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Givors Ku - Software | AI & ML Engineer</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="HTML5 website template" />
+    <meta
+      name="keywords"
+      content="givors, givorsku, guggg, eporfolio, personal branding"
+    />
+    <meta name="author" content="Bucky Maler" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!-- <link rel="stylesheet" href="assets/css/apollo-main.css"> -->
+
+    <!-- Favicon
+      ================================================== -->
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="assets/img/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/img/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/img/favicon_io/favicon-16x16.png"
+    />
+    <link rel="icon" sizes="16x16" href="assets/img/favicon_io/favicon.ico" />
+    <!-- <link rel="manifest" href="assets/img/manifest.json"> -->
+    <!-- <link rel="mask-icon" href="assets/img/safari-pinned-tab.svg" color="#5bbad5"> -->
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+
+  <body>
+    <div class="perspective effect-rotate-left">
+      <div class="container">
+        <div class="outer-nav--return"></div>
+        <div id="viewport" class="l-viewport">
+          <div class="l-wrapper">
+            <header class="header">
+              <a class="header--logo" href="./index.html">
+                <!-- <img src="assets/img/logo.png" alt="Global"> -->
+                <p>GivorsKu</p>
+              </a>
+              <button class="header--cta cta">Contact me</button>
+              <div class="header--nav-toggle">
+                <span></span>
+              </div>
+            </header>
+
+            <div class="roadsense-wrapper artifacts-wrapper">
+              <div class="banner-wrapper">
+                <img class="banner" src="./assets/img/roadsense.png" alt="" />
+              </div>
+
+              <div class="info">
+                <div class="roadsense-container">
+                  <div class="img-container mb-hide">
+                    <div class="second-place"></div>
+                  </div>
+                  <div class="text">
+                    <h1>Congratulations!</h1>
+                    <p>
+                      - July 30th, 2024.
+                      <br />The RoadSense Project Team secured the
+                      <span style="text-decoration: underline"
+                        >second-place</span
+                      >
+                      at the 2024 Tech Showcase of Applied Artificial
+                      Intelligence and Machine Learning program at Conestoga
+                      College.
+                    </p>
+                  </div>
+
+                  <div class="img-container mb-show">
+                    <div class="second-place"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="info">
+                <div class="roadsense-container">
+                  <div class="text">
+                    <div class="img-container mb-show">
+                      <div class="img"></div>
+                    </div>
+                    <h1>RoanSense</h1>
+                    <p>
+                      Potholes and poor road conditions pose significant risks
+                      to road safety, causing accidents, vehicle damage, and
+                      traffic delays. According to the CAA (Canadian Automobile
+                      Association), poor-quality roads cost Canadian drivers
+                      approximately $3 billion annually (CPCS, 2021).
+                      Traditional methods of detecting and repairing road damage
+                      are inefficient, leading to increased costs and road
+                      deterioration.
+                    </p>
+
+                    <p>
+                      Current approaches rely heavily on periodic inspections
+                      and driver reports, which are neither timely nor
+                      comprehensive. There is a crucial need for advanced
+                      monitoring and detection systems utilizing AI and
+                      real-time data to efficiently identify and address road
+                      issues. This project aims to develop and implement such
+                      technologies to improve road maintenance and reduce
+                      associated costs.
+                    </p>
+                  </div>
+                  <div class="img-container mb-hide">
+                    <div class="img"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="banner-wrapper">
+                <img
+                  class="roadsense-skills"
+                  src="./assets/img/roadsense-structure.png"
+                  alt=""
+                />
+              </div>
+
+              <div class="info">
+                <p>
+                  For the POC (Proof of Concept) phase, we have developed three
+                  different services for our prototype project. The first is a
+                  Streamlit application where we apply our model algorithm.
+                  Users can upload images or videos, and the service will begin
+                  detecting poor road conditions. If any poor road conditions
+                  (such as potholes and cracks) are detected, it will
+                  automatically send an HTTP request to execute the API service
+                  we developed with Python Flask. This service includes a
+                  temporary database to store the data (detection), supporting
+                  CRUD (create, read, update, delete) operations. The API
+                  service uses token-based authentication to prevent
+                  unauthorized requests. Since this is the POC phase,
+                  implementing a more robust database, such as MySQL or SQL
+                  Server, is part of our future work.
+                  <br />
+                  The last service is a web application built with Vue.js, which
+                  serves as the data showcase platform. On this platform, we can
+                  observe the distribution and severity of poor road conditions
+                  in specific regions.
+                </p>
+              </div>
+
+              <div class="showcase-wrapper">
+                <h3>Results Showcase</h3>
+                <img
+                  class="showcase"
+                  src="./assets/img/roadsense-showcase.gif"
+                  alt="roadsense-showcase"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <ul class="outer-nav">
+        <li>Home</li>
+        <li>About</li>
+        <li>My Goals</li>
+        <li>Experience</li>
+        <li class="is-active">Artifacts</li>
+        <li>Contact me</li>
+      </ul>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script>
+      window.jQuery ||
+        document.write(
+          '<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>'
+        );
+    </script>
+    <!-- <script src="assets/js/functions-min.js"></script> -->
+    <script src="assets/js/functions.js"></script>
+    <script src="assets/js/vendor/hammer-2.0.8.js"></script>
+  </body>
+</html>
